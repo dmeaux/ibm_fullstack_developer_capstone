@@ -1,10 +1,20 @@
 img{
   width: 60%;
-  align-self: center;
+  height: auto;
+}
+
+a {
+    color:  slategray;
+}
+
+a:hover {
+    color: lightgray;
 }
 
 .card{
-  border: rgb(103, 102, 105) 3px solid;
+  border-color: gainsboro;
+  border-width:  0.25pt;
+  border-style: solid;
   display: flex;  
   flex-direction: column;
   margin-left:5%;
@@ -20,29 +30,30 @@ img{
   margin: auto;
   margin-top: 1%;
   justify-content: center;
-  padding:20px;
+  padding :0.5rem;
 }
 
 .container{
   justify-content: center;
 }
+
 .details{
-  font-size: 20px;
-  color: rgb(97, 64, 128);
-  padding:20px;
+  font-size: 10pt;
+  color:slategray;
+  padding: 0.5rem;
 }
 
 .title{
-  font-size: 20px;
-  background-color: rgb(97, 64, 128);
+  font-size: 14pt;
+  background-color:slategray;
   color: white;
   text-align: center;
-  margin:20px;
-  padding:5px;
+  margin: 0.5rem;
+  padding: 0.2rem;
 }
 
 .homepage_links{
-  color:  rgb(97, 64, 128);
+  color: slategray;
   padding: 25%;
   font-size: larger;
   }
@@ -58,61 +69,62 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex:1
+  flex: 1;
+  padding: 0.5rem;
 }
 
 .form_panel {
   padding:2%;
   display: flex;
   flex-direction: column;
-  border-radius: 50px;
+  border-radius: 0.5rem;
   text-align:center;
-  box-shadow: 2px 2px 2px 3px #999;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.3rem #999;
   margin: auto;
   min-width: 350px;
   width: 80%;
-  margin-top:3%;
+  margin-top: 3%;
   background-color: black;
 }
 
 .navitems{
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 0.5rem;
   flex: 1;
   justify-content: flex-start;
   justify-self: center;
 }
 
 .nav_item{
-  margin-left:15px;
-  font-size: 20px;
+  margin-left:0.4rem;
+  font-size: 8pt;
   color: black;
   align-self: center;
 }
 
 .username{
-  font: 30px sans-serif;
-  color:black;
+  font: 10pt sans-serif;
+  color: black;
   justify-content: 'flex-end';
-  align-self:flex-end;
+  align-self: flex-end;
   vertical-align: middle;
 }
 
 .input_panel {
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 0.5rem;
   flex: 1;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: flex-end;
   vertical-align: middle;
 }
 
 .small_header{
-  font: 30px sans-serif;
+  font: 12pt sans-serif;
   color:black;
-  margin: .5cm;
+  margin: 11pt;
 }
 
 .img_icon {
@@ -120,7 +132,7 @@ img{
     width:40px;
     background-color:#0C9;
     color:#FFF;
-    border-radius:50px;
+    border-radius:1pt;
     text-align:center;
-    box-shadow: 2px 2px 3px #999;  
+    box-shadow: 0.2rem 0.2rem 0.3rem #999;  
 }
