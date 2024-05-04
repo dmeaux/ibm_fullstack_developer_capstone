@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import "./Dealers.css";
 import "../assets/style.css";
+import "./Dealers.css";
 import positive_icon from "../assets/positive.png"
 import neutral_icon from "../assets/neutral.png"
 import negative_icon from "../assets/negative.png"

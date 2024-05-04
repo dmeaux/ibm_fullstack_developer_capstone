@@ -5,7 +5,7 @@
   flex-direction: row;
   margin: auto;
   margin-top: 2%;
-  background-color: rgb(97, 64, 128);
+  background-color: gainsboro;
   align-items: flex-start;
 }
 
@@ -54,18 +54,18 @@
 }
 
 .submit:hover {
-  background-color: wheat;
+  background-color: lightgray;
 }
 
 .small_header{
   font: 30px sans-serif;
-  color:azure;
+  color: gainsboro;
   margin: .5cm;
 }
 
 .username{
   font: 30px sans-serif;
-  color:azure;
+  color: gainsboro;
   margin: .5cm;
   justify-content: 'flex-end';
   align-self:flex-end;

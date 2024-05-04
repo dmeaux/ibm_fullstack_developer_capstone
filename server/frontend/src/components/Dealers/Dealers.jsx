@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import "./Dealers.css";
 import "../assets/style.css";
+import "./Dealers.css";
 import Header from '../Header/Header';
 import review_icon from "../assets/reviewicon.png"
 
